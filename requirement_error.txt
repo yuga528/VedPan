@@ -1,0 +1,88 @@
+C:\Users\Administrator>pip install cryptography==1.5.2
+Downloading/unpacking cryptography==1.5.2
+  Running setup.py (path:C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Admini
+strator\cryptography\setup.py) egg_info for package cryptography
+
+    no previously-included directories found matching 'docs\_build'
+    warning: no previously-included files matching '*' found under directory 've
+ctors'
+Requirement already satisfied (use --upgrade to upgrade): idna>=2.0 in c:\python
+34\lib\site-packages (from cryptography==1.5.2)
+Downloading/unpacking pyasn1>=0.1.8 (from cryptography==1.5.2)
+Requirement already satisfied (use --upgrade to upgrade): six>=1.4.1 in c:\pytho
+n34\lib\site-packages (from cryptography==1.5.2)
+Downloading/unpacking setuptools>=11.3 (from cryptography==1.5.2)
+Downloading/unpacking cffi>=1.4.1 (from cryptography==1.5.2)
+  Running setup.py (path:C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Admini
+strator\cffi\setup.py) egg_info for package cffi
+    Traceback (most recent call last):
+      File "<string>", line 17, in <module>
+      File "C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Administrator\cffi\
+setup.py", line 116, in <module>
+        if sys.platform == 'win32' and uses_msvc():
+      File "C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Administrator\cffi\
+setup.py", line 94, in uses_msvc
+        return config.try_compile('#ifndef _MSC_VER\n#error "not MSVC"\n#endif')
+
+      File "C:\Python34\lib\distutils\command\config.py", line 227, in try_compi
+le
+        self._compile(body, headers, include_dirs, lang)
+      File "C:\Python34\lib\distutils\command\config.py", line 133, in _compile
+        self.compiler.compile([src], include_dirs=include_dirs)
+      File "C:\Python34\lib\distutils\msvc9compiler.py", line 460, in compile
+        self.initialize()
+      File "C:\Python34\lib\distutils\msvc9compiler.py", line 371, in initialize
+
+        vc_env = query_vcvarsall(VERSION, plat_spec)
+      File "C:\Python34\lib\distutils\msvc9compiler.py", line 259, in query_vcva
+rsall
+        raise DistutilsPlatformError("Unable to find vcvarsall.bat")
+    distutils.errors.DistutilsPlatformError: Unable to find vcvarsall.bat
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+
+  File "<string>", line 17, in <module>
+
+  File "C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Administrator\cffi\setu
+p.py", line 116, in <module>
+
+    if sys.platform == 'win32' and uses_msvc():
+
+  File "C:\Users\ADMINI~1\AppData\Local\Temp\2\pip_build_Administrator\cffi\setu
+p.py", line 94, in uses_msvc
+
+    return config.try_compile('#ifndef _MSC_VER\n#error "not MSVC"\n#endif')
+
+  File "C:\Python34\lib\distutils\command\config.py", line 227, in try_compile
+
+    self._compile(body, headers, include_dirs, lang)
+
+  File "C:\Python34\lib\distutils\command\config.py", line 133, in _compile
+
+    self.compiler.compile([src], include_dirs=include_dirs)
+
+  File "C:\Python34\lib\distutils\msvc9compiler.py", line 460, in compile
+
+    self.initialize()
+
+  File "C:\Python34\lib\distutils\msvc9compiler.py", line 371, in initialize
+
+    vc_env = query_vcvarsall(VERSION, plat_spec)
+
+  File "C:\Python34\lib\distutils\msvc9compiler.py", line 259, in query_vcvarsal
+l
+
+    raise DistutilsPlatformError("Unable to find vcvarsall.bat")
+
+distutils.errors.DistutilsPlatformError: Unable to find vcvarsall.bat
+
+----------------------------------------
+Cleaning up...
+Command python setup.py egg_info failed with error code 1 in C:\Users\ADMINI~1\A
+ppData\Local\Temp\2\pip_build_Administrator\cffi
+Storing debug log for failure in C:\Users\Administrator\pip\pip.log
+
+C:\Users\Administrator>
+
+
+
