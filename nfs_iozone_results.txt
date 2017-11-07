@@ -12,7 +12,7 @@ root@nfsclient:/home/vedams/iozone3_394/src/current# iozone -aczR -g 2097152 -U 
                      Erik Habbinga, Kris Strecker, Walter Wong, Joshua Root,
                      Fabrice Bacchella, Zhenghua Xue, Qin Li, Darren Sawyer,
                      Vangel Bojaxhi, Ben England, Vikentsi Lapa.
-
+addition
         Run began: Wed Feb 22 18:06:58 2017
 
         Auto Mode
